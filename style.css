@@ -1,0 +1,233 @@
+@import url('https://fonts.googleapis.com/css?family=Krona+One|Montserrat|Raleway&display=swap');
+/*
+    font-family: 'Montserrat';
+    font-family: 'Krona One';
+    font-family: 'Raleway', ;
+*/
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+  font-family:"Montserrat", sans-serif;
+}
+body {
+    
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    height:100vh;
+    width:100vw;
+    font-family:"Montserrat", sans-serif;
+    background-color:#D9DAFF;
+     
+    
+}
+.icon {
+ width: 28px;
+ margin-right: 0.7rem;
+}
+.container{
+    position: absolute;
+    -webkit-transform: translate(-50%,-50%);
+        -ms-transform: translate(-50%,-50%);
+            transform: translate(-50%,-50%);
+    top: 50%;
+    left: 50%;
+    height:505px;
+    width:360px;
+}
+.card{
+    width:92%;
+    height:505px;
+    background-color:#fefcf6;
+    position:absolute ;
+    left:50%;
+    transform:translate(-50%, -50%);
+    border-radius:10px;
+    top:50%;
+    text-align: center;
+ /* box-shadow: 0px 10px 20px -10px rgba(0,0,0,0.75);*/
+ -webkit-box-shadow: 0 0 25px rgba(17, 1, 68, 0.08);
+         box-shadow: 0 0 25px rgba(17, 1, 68, 0.08);
+}
+.clip-top-1{
+   border:3.5px solid #fff;
+   border-top-style: solid;
+   border-right-style:solid;
+   border-bottom-style:none; 
+   border-left-style:solid;
+    width:100%;
+    height:175px;
+    position:relative;
+    background-color:#000;
+    clip-path: polygon(100% 0%, 100% 50%, 0% 100%, 0% 0%);
+    border-radius:10px 10px 0px 0px;
+}
+.line{
+    position:relative ;
+    width:80px;
+    height:2px;
+    border-radius:10px;
+    background-color:#fff;
+    top:-25px;
+    left:10px;
+    transform:rotate(-15deg);
+    box-shadow:240px 0px #fff;
+     text-align: ;
+}
+.user-img{
+    width:115px;
+    height:auto ;
+    border-radius:50%;
+    position:absolute ;
+    top:110px;
+    left:50%;
+    transform:translate(-50%, -50%);
+    border:4px solid #fff;
+    background-position:0px 0px;
+    transition:0.3s;
+}
+.user-name{
+    position:absolute ;
+    font-size:15px;
+    font-family: 'Montserrat' ;
+    top:200px;
+    font-weight:bolder;
+    left:50%;
+    transform:translate(-50%, -50%);
+}
+.user-profession{
+    position:absolute ;
+    font-size:12.5px;
+    font-family: 'Montserrat' ;
+    color:#616C6F;
+    top:230px;
+    line-height:17px;
+    left:50%;
+    word-spacing:3px;
+    text-align:center ;
+    width:90%;
+    transform:translate(-50%, -50%);
+}
+.user-description{
+    position:absolute ;
+    font-size:8px;
+    font-family: 'Montserrat' ;
+    top:290px;
+    font-weight: bold;
+    line-height:18px;
+    word-spacing:3px;
+    left:50%;
+    width:90%;
+    text-align: justify;
+    transform:translate(-50%, -50%);
+}
+.header-card{
+  background:#48aaad;
+  clip-path: polygon(0 0, 100% 0, 100% 31%, 0 99%);
+  height:200px;
+  width:100%;
+  border-radius:10px 10px 0px 0px;
+}
+.accounts-container{
+  margin-top:160px;
+  text-align:center;
+}
+
+.png{
+  height:35px !important;
+  width:35px !important;
+  background:#000;
+  display:inline;
+  border-radius:100%;
+  margin:6.5px;
+  padding:1.5px;
+  position:relative;
+  z-index:100;
+}
+.btn{
+
+    position:absolute ;
+    font-size:15px;
+    font-family: 'Montserrat' ;
+    top:435px;
+    background-color:#000;
+    left:50%;
+    align-items:center ;
+    word-spacing:3px;
+    text-align:center ;
+    color:#fff;
+    text-decoration:none ;
+    width:80%;
+    transition:0.2s;
+    transform:translate(-50%, -50%);
+    padding:15px;
+    border:2px solid #d3d3d3;
+    display:flex;
+    justify-content:center;
+    border-radius:5px;
+    margin-top:1px;
+    text-decoration:none;
+}
+
+.a{
+   
+    position:relative;
+    height:20px;
+    width:56px;
+    background-color:#000;
+    top:90px;
+}
+a{
+  
+    text-decoration:none;
+}
+.b{
+    position:relative;
+    height:20px;
+    width:56px;
+    background-color:#36B37E;
+    top:70px;
+    left:56px;
+}
+.c{
+    position:relative;
+    height:20px;
+    width:56px;
+    background-color:#FFAB00;
+    top:50px;
+    left:111px;
+}
+
+.d{
+    position:relative;
+    height:20px;
+    width:56px;
+    background-color:#0BC5EA;
+    top:30px;
+    left:167px;
+}
+.e{
+    position:relative;
+    height:20px;
+    width:56px;
+    background-color:#8954f2;
+    top:10px;
+    left:223px;
+}
+.f{
+    position:relative;
+    height:20px;
+    width:55px;
+    background-color:#ff1744;
+    top:-10px;
+    left:276px;
+}
+.clip-bottom{
+    width:100%;
+    height:6px;
+    position:absolute ;
+    bottom:0;
+    background-color:#000;
+    border-radius:0 0 10px 10px;
+}
